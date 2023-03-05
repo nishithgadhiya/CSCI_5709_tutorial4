@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Navigate, useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import styled from "@emotion/styled";
 import Typography from "@mui/material/Typography";
 import axios from "axios";
@@ -8,7 +8,6 @@ import Card from "./Card";
 import {
   TableContainer,
   TableRow,
-  TableCell,
   Table,
   TableBody,
   Button,
